@@ -11,6 +11,12 @@ table, th, td {
 	padding: 3px;
 }
 
+td:hover {
+    background-color:red;
+    transition: .5s;
+    transition-timing-function: ease;
+  }
+
 pre {
 	font-family: Courier New, Courier, Optima, Palatino Linotype, Palatino, serif;
 }
