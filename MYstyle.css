@@ -5,6 +5,11 @@ body {
 	word-break: break-word;
 }
 
+.enlargeOnHover:hover {
+	width: 30em;
+	height: 20em;
+}
+
 table, th, td {
 	border: solid black 1px;
 	border-collapse: collapse;
@@ -13,7 +18,7 @@ table, th, td {
 
 .tdPlain:hover {
 	background-color: antiquewhite;
-	transition: .5;
+	transition: .5s;
 	transition-timing-function: ease;
 }
 
