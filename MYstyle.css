@@ -3,6 +3,7 @@ body {
 	font-family: Courier New, Courier, Optima, Palatino Linotype, Palatino, serif;
 	/* font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; */
 	word-break: break-word;
+	text-align: center;
 }
 
 .enlargeOnHover:hover {
@@ -16,6 +17,13 @@ table, th, td {
 	border: solid black 1px;
 	border-collapse: collapse;
 	padding: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.thCenter {
+	text-align: center;
 }
 
 .tdPlain:hover {
