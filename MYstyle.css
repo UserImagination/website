@@ -11,6 +11,12 @@ table, th, td {
 	padding: 3px;
 }
 
+.tdPlain:hover {
+	background-color: antiquewhite;
+	transition: .5;
+	transition-timing-function: ease;
+}
+
 td:hover {
     background-color:red;
     transition: .5s;
