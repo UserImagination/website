@@ -17,13 +17,13 @@ table, th, td {
 }
 
 .tdPlain:hover {
-	background-color: antiquewhite;
+	background-color: #babe4d;
 	transition: .5s;
 	transition-timing-function: ease;
 }
 
 td:hover {
-    background-color:red;
+    background-color: #babe4d;
     transition: .5s;
     transition-timing-function: ease;
   }
