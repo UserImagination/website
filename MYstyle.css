@@ -6,8 +6,10 @@ body {
 }
 
 .enlargeOnHover:hover {
-	width: 30em;
-	height: 20em;
+	width: 37em;
+	height: 17em;
+	opacity: 100%;
+	transition: opacity 1s;
 }
 
 table, th, td {
