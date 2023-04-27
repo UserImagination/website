@@ -6,11 +6,17 @@ body {
 	text-align: center;
 }
 
+.cat {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.cat img {
+	transition: 0.5s all ease-in-out;
+}
 .enlargeOnHover:hover {
-	width: 37em;
-	height: 17em;
-	opacity: 100%;
-	transition: opacity 1s;
+	transform: scale(1.4);
+	padding: 2em 0;
 }
 
 table, th, td {
